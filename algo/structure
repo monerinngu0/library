@@ -1,0 +1,9 @@
+#pragma once
+#pragma kbuild expand
+
+#include "algo/header/structure/monoid.h"
+#include "algo/header/structure/acted_monoid.h"
+#include "algo/header/structure/dsu.h"
+#include "algo/header/structure/fenwicktree.h"
+#include "algo/header/structure/segtree.h"
+#include "algo/header/structure/lazysegtree.h"

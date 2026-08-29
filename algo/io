@@ -1,0 +1,8 @@
+#pragma once
+#pragma kbuild expand
+
+#include "algo/header/io/fasterIO.h"
+#include "algo/header/io/pairIn.h"
+#include "algo/header/io/pairOut.h"
+#include "algo/header/io/vectorIn.h"
+#include "algo/header/io/vectorOut.h"
