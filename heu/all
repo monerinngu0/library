@@ -1,6 +1,6 @@
 #pragma once
 #pragma kbuild expand
 
-#include "timer.h"
-#include "rng.h"
-#include "annealing.h"
+#include "heu/header/timer.h"
+#include "heu/header/rng.h"
+#include "heu/header/annealing.h"

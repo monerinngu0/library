@@ -1,7 +1,7 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/notice.h"
+#include "mone/header/notice.h"
 
 #include <cassert>
 
