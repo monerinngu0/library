@@ -1,6 +1,8 @@
 #pragma once
 #pragma kbuild expand
 
+#include "mone/notice.h"
+
 #include <concepts>
 #include <limits>
 #include <numeric>

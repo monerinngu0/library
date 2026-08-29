@@ -1,5 +1,7 @@
 #pragma once
 
+#include "mone/notice.h"
+
 #include <concepts>
 #include <iostream>
 #include <ranges>

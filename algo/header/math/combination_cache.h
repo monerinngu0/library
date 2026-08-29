@@ -1,6 +1,8 @@
 #pragma once
 #pragma kbuild expand
 
+#include "mone/notice.h"
+
 #include <algorithm>
 #include <cassert>
 #include <cstdint>

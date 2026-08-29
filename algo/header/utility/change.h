@@ -1,6 +1,8 @@
 #pragma once
 #pragma kbuild expand
 
+#include "mone/notice.h"
+
 namespace mone { // change
 
 template<class T>
