@@ -1,7 +1,7 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 #include <cassert>
 #include <concepts>
@@ -10,7 +10,9 @@
 #include <ostream>
 #include <type_traits>
 
-namespace mone { // modint
+namespace mone {
+    
+// modint
 
 template<std::uint32_t Mod>
 class static_modint {
@@ -240,7 +242,7 @@ struct is_static_modint<static_modint<Mod>> : std::true_type {};
 
 template<class T>
 inline constexpr bool is_static_modint_v =
-    modint_detail::is_static_modint<std::remove_cv_t<T>>::value;
+    modint_detail::is_static_modint<std::remove_cvref_t<T>>::value;
 
 using modint998244353 = static_modint<998244353>;
 using modint1000000007 = static_modint<1'000'000'007>;

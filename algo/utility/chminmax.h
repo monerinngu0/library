@@ -1,7 +1,7 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 namespace mone { // change
 

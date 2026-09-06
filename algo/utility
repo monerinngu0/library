@@ -1,4 +1,0 @@
-#pragma once
-#pragma kbuild expand
-
-#include "algo/header/utility/change.h"

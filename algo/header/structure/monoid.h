@@ -74,6 +74,7 @@ struct maximum_monoid {
     }
 };
 
+// Values are assumed to be non-negative.
 template<std::integral T>
 struct gcd_monoid {
     using value_type = T;
@@ -90,6 +91,7 @@ struct gcd_monoid {
     }
 };
 
+// Values are assumed to be non-negative.
 template<std::integral T>
 struct lcm_monoid {
     using value_type = T;

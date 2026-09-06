@@ -1,7 +1,0 @@
-#pragma once
-#pragma kbuild expand
-
-#include "algo/header/math/modint.h"
-#include "algo/header/math/factorial.h"
-#include "algo/header/math/combination.h"
-#include "algo/header/math/combination_cache.h"

@@ -1,13 +1,15 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 #include <cassert>
 
-#include "algo/header/math/modint.h"
+#include <algo/math/modint.h>
 
-namespace mone { // factorial
+namespace mone {
+    
+// factorial
 
 template<class T>
 [[nodiscard]] T fact(int n) {

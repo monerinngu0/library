@@ -1,7 +1,7 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 #include <algorithm>
 #include <cassert>
@@ -9,13 +9,15 @@
 #include <limits>
 #include <vector>
 
-#include "algo/header/math/modint.h"
+#include <algo/math/modint.h>
 
-namespace mone { // combination_cache
+namespace mone {
+
+// combinatorics_cache
 
 template<class Mint>
     requires is_static_modint_v<Mint>
-class cache {
+class combinatorics_cache {
 public:
     [[nodiscard]] static Mint fact(int n) {
         ensure(n);
@@ -71,6 +73,7 @@ private:
 
     static void ensure(int n) {
         assert(n >= 0);
+        // Requires Mint:mod() to be prime.
         assert(static_cast<std::uint64_t>(n) < Mint::mod());
 
         if (n < static_cast<int>(factorials_.size())) {

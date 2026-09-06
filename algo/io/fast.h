@@ -1,11 +1,13 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 #include <iostream>
 
-namespace mone { // fastIO
+namespace mone::io {
+    
+// fast_io
 
 struct FastIO {
     FastIO() {
@@ -16,4 +18,4 @@ struct FastIO {
 
 inline FastIO fast_io_initializer;
 
-} // namespace mone
+} // namespace mone::io

@@ -1,15 +1,17 @@
 #pragma once
 #pragma kbuild expand
 
-#include "mone/header/notice.h"
+#include <mone/detail/notice.h>
 
 #include <algorithm>
 #include <cassert>
 #include <limits>
 
-#include "algo/header/math/modint.h"
+#include <algo/math/modint.h>
 
-namespace mone { // combination
+namespace mone {
+    
+// combinatorics
 
 template<class T>
 [[nodiscard]] T perm(int n, int k) {

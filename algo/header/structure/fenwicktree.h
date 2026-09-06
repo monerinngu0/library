@@ -106,12 +106,6 @@ public:
         );
     }
 
-    [[nodiscard]] int size() const noexcept {
-        return static_cast<int>(
-            data_.size()
-        ) - 1;
-    }
-
 private:
     std::vector<T> data_;
 
