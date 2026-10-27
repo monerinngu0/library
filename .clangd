@@ -1,0 +1,8 @@
+CompileFlags:
+  Compiler: g++
+  Remove:
+    - -std=*
+  Add:
+    - -std=gnu++23
+    - -I/home/i2611433/library/mone-library
+    - -I/home/i2611433/library/ac-library

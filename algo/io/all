@@ -1,6 +1,0 @@
-#pragma once
-#pragma kbuild expand
-
-#include <algo/io/fast.h>
-#include <algo/io/pair.h>
-#include <algo/io/vector.h>
