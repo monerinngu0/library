@@ -3,7 +3,6 @@
 
 #include <mone/detail/notice.h>
 
-#include <cmath>
 #include <istream>
 
 namespace mone {

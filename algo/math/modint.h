@@ -12,8 +12,6 @@
 
 namespace mone {
     
-// modint
-
 template<std::uint32_t Mod>
 class static_modint {
     static_assert(1 <= Mod);

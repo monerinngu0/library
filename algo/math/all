@@ -1,8 +1,6 @@
 #pragma once
 #pragma kbuild expand
 
-//#include <algo/math/gcd.h>
-
 #include <algo/math/geometry/point.h>
 
 #include <algo/math/modint.h>

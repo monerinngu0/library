@@ -10,7 +10,7 @@ namespace mone {
 
 class dsu {
 public:
-    explicit dsu(int n) : p(n, -1) {}
+    dsu(int n) : p(n, -1) {}
 
     int find(int x) {
         if (p[x] < 0) return 0;
